@@ -1,5 +1,5 @@
 # Dio-exercicios
-Descrição
+## Descrição exercicio conta bancaria: 
 Uma nova feature para um sistema bancário foi analisada pela equipe de desenvolvimento e será uma das tarefas a serem trabalhadas durante a sprint, como desenvolvedor da empresa você recebeu os requisitos para a nova implementação que consiste em uma solução algorítmica que permita aos clientes realizarem saques em caixas eletrônicos. No entanto, existem algumas regras a serem seguidas para garantir que um saque possa ser realizado com sucesso.
 
 Regras do saque:
@@ -29,6 +29,84 @@ Saque realizado com sucesso. Novo saldo: 800
 1500
 1800
 
+
+
 Saldo insuficiente. Saque nao realizado!
 300
 200	Saque realizado com sucesso. Novo saldo: 100
+
+## Equilibrando o Saldo
+
+Descrição
+Para esse desafio, considere que você foi contratado por uma empresa bancária para auxiliar nas implementações e melhorias do sistema empresarial. Em uma análise inicial, foi identificado pela equipe financeira a necessidade de desenvolver uma solução que permita ao cliente equilibrar seu saldo bancário. Dessa forma, o programa deve solicitar uma entrada que representa o saldo atual do funcionário, e após, seja informado o valor de duas transações, sendo elas: um depósito e um saque. O programa deve atualizar o saldo com base nas transações e exibir o saldo final.
+
+Informação: As transações de depósito e retirada devem ser tratadas como valores positivos e negativos, respectivamente, para garantir que o cálculo do saldo final seja realizado corretamente.
+ 
+
+Entrada
+saldoAtual: um número decimal representando o saldo atual da conta bancária.
+valorDeposito: um número decimal representando o valor a ser depositado na conta.
+valorRetirada: um número decimal representando o valor a ser retirado da conta.
+
+Regra de Formatação: Considere apenas uma casa decimal para esse desafio.
+
+Saída
+ Um número decimal que representa o saldo atualizado na conta bancária após o processamento das transações.
+
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	Saída
+1000
+500
+200	Saldo atualizado na conta: 1300.0
+100
+10
+50	Saldo atualizado na conta: 60.0
+4000
+1500
+200	Saldo atualizado na con
+
+## Organizando seus ativos 
+
+Descrição
+Após uma análise cuidadosa realizada pela equipe de desenvolvimento de uma empresa bancaria, foi identificado a necessidade de uma nova funcionalidade para otimizar os processos e melhorias da experiência dos usuários. Agora, sua tarefa é implementar uma solução que organize em ordem alfabética uma lista de ativos que será informada pelos usuários. Os ativos são representados por strings que representam seus tipos, como por exemplo: Reservas de liquidez, Ativos intangiveis e dentre outros.
+
+Entrada
+A primeira entrada consiste em um número inteiro que representa a  quantidade de ativos que o usuário possui. Em seguida, o usuário deverá  informar, em linhas separadas, os tipos (strings) dos respectivos ativos.
+
+Saída
+Seu programa deve exibir a lista de Ativos organizada em ordem alfabética. Cada ativo deve ser apresentado em uma linha separada.
+
+Exemplos
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+Entrada	Saída
+3
+Financiamento de Imovel
+Deposito
+Reservas Bancarias
+ 	
+Deposito
+Financiamento de Imovel
+Reservas Bancarias
+
+3
+Carteiras de credito
+Investimentos em titulos
+Derivativos financeiros	
+
+Carteiras de credito
+Derivativos financeiros
+Investimentos em titulos
+
+3
+Reservas de liquidez
+Ativos intangiveis
+Fundos de investimento	
+
+Ativos intangiveis
+Fundos de investimento
+Reservas de liquidez****
+
+
