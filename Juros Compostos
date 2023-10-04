@@ -1,0 +1,17 @@
+function calcularValorFinalInvestimento(valorInicial, taxaJuros, periodo) {
+  let valorFinal = valorInicial;
+
+  for (let i = 0; i < periodo; i++) {
+    valorFinal += valorFinal * taxaJuros;
+  }
+
+  return valorFinal.toFixed(2);
+}
+
+const valorInicial = parseFloat(gets());
+const taxaJuros = parseFloat(gets());
+const periodo = parseInt(gets());
+
+const resultado = calcularValorFinalInvestimento(valorInicial, taxaJuros, periodo);
+
+print(`Valor final do investimento: R$ ${resultado}`);
