@@ -1,0 +1,12 @@
+// Entrada de dados
+let saldoTotal = parseInt(gets());
+let valorSaque = parseInt(gets());
+
+// Verifica se o saldo disponível é suficiente para o saque
+if (saldoTotal >= valorSaque) {
+    // Subtrai o valor do saque do saldo disponível
+    saldoTotal -= valorSaque;
+    print("Saque realizado com sucesso. Novo saldo: " + saldoTotal);
+} else {
+    print("Saldo insuficiente. Saque nao realizado!");
+}
