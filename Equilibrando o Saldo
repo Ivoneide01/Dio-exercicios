@@ -1,0 +1,16 @@
+//Desafios JavaScript na DIO têm funções "gets" e "print" acessíveis globalmente:
+//- "gets" : lê UMA linha com dado(s) de entrada (inputs) do usuário;
+//- "print": imprime um texto de saída (output), pulando linha.
+
+const saldoAtual = parseFloat(gets());
+const valorDeposito = parseFloat(gets());
+const valorRetirada = parseFloat(gets());
+
+// Função para calcular o novo saldo de acordo com as regras
+function CalcularSaldoAtual(saldoAtual, valorDeposito, valorRetirada) {
+  const saldoAtualizado = saldoAtual + valorDeposito - valorRetirada;
+  return saldoAtualizado.toFixed(1); // Formatar para uma casa decimal
+}
+
+const novoSaldo = CalcularSaldoAtual(saldoAtual, valorDeposito, valorRetirada);
+print(`Saldo atualizado na conta: ${novoSaldo}`);
