@@ -1,0 +1,13 @@
+const valor = parseFloat(gets());
+let saldo = 0;
+
+if (valor === 0) {
+  print("Encerrando o programa...");
+} else if (valor > 0) {
+  saldo += valor;
+  const saldoFormatado = saldo.toFixed(2).replace(".", ".");
+  print("Deposito realizado com sucesso!");
+  print("Saldo atual: R$ " + saldoFormatado);
+} else {
+  print("Valor invalido! Digite um valor maior que zero.");
+}
